@@ -11,4 +11,4 @@
 
 (defpackage :day03
   (:use :cl :arrows)
-  (:import-from :cl-ppcre :split :scan-to-strings :do-register-groups))
+  (:import-from :cl-ppcre :split :scan-to-strings :register-groups-bind))
