@@ -10,5 +10,5 @@
   (:use :cl :arrows))
 
 (defpackage :day03
-  (:use :cl :arrows)
+  (:use :cl :arrows :vecto)
   (:import-from :cl-ppcre :split :scan-to-strings :register-groups-bind))

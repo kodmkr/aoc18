@@ -2,7 +2,7 @@
 
 (asdf:defsystem #:aoc18
   :description "Advent of Code 2018"
-  :depends-on ("cl-ppcre" "arrows" "alexandria" "serapeum")
+  :depends-on ("cl-ppcre" "arrows" "alexandria" "vecto")
   :serial t
   :components ((:file "package")
                (:file "day01")
