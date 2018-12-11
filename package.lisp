@@ -20,3 +20,7 @@
 (defpackage :day04
   (:use :cl :arrows)
   (:import-from :cl-ppcre :split :scan-to-strings :register-groups-bind))
+
+(defpackage :day05
+  (:use :cl :arrows)
+  (:import-from :cl-ppcre :split :regex-replace-all))
